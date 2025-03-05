@@ -1,19 +1,21 @@
-
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 export default function Home() {
   return (
     <div className="mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%] ">
       <div >
         <div className="sticky top-14 grid grid-rows-[35%_45%_20%] h-screen ">
           <div className="flex flex-col ">
-            <div className="text-3xl text-nothing-Navy font-semibold">Software Developer </div>
+            <div className="text-3xl text-nothing-Navy font-semibold">sompharn Developer </div>
             <div className="text-2xl text-nothing-Blue font-semibold">Software Developer </div>
-            <div className="text-sm w-5/6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div className="text-sm w-5/6">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
             <div className="mt-5">
-              <span className="bg-nothing-Navy text-white p-2 px-4">View Resume</span>
+              <a href="" className="bg-nothing-Navy rounded-sm text-white p-2 px-4">View Resume 
+              <ArrowBackIcon/>
+              </a>
             </div>
           </div>
           <div className="">Nav</div>
-          <div className="flex items-end">Link</div>
+          <div className="flex items-end mb-14">Link</div>
         </div>
       </div>
       <div >
