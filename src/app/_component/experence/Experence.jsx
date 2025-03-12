@@ -35,14 +35,14 @@ export default function Experence() {
           </div>
         </div>
       </div>
-      <div className={`grid px-2 py-6 grid-cols-[25%_75%] transition-all rounded-sm ${isMouseEnter['A1'] ? "bg-nothing-Purple" : ""}`}
-        onMouseEnter={() => setIsMouseEnter(prev => ({ ...prev, A1: true }))}
-        onMouseLeave={() => setIsMouseEnter(prev => ({ ...prev, A1: false }))} 
+      <div className={`grid px-2 py-6 grid-cols-[25%_75%] transition-all rounded-sm ${isMouseEnter['A2'] ? "bg-nothing-Purple" : ""}`}
+        onMouseEnter={() => setIsMouseEnter(prev => ({ ...prev, A2: true }))}
+        onMouseLeave={() => setIsMouseEnter(prev => ({ ...prev, A2: false }))} 
         id='section-project'
       >
         <div>
          
-            <FormattedDate isHighlight={isMouseEnter['A1']} items="2020-2024" />
+            <FormattedDate isHighlight={isMouseEnter['A2']} items="2020-2024" />
           <Picture props={data.url}/>
           
           
@@ -54,21 +54,23 @@ export default function Experence() {
             <GitHubIcon />
             <GitHubIcon />
           </div>
-          <div className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi cum quaerat sapiente culpa modi placeat, a sed cupiditate totam ex ab magnam ratione laborum repellendus voluptas? Animi sed nihil omnis.</div>
+          <div className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Excepturi cum quaerat sapiente culpa modi placeat, 
+             a sed cupiditate totam ex ab magnam ratione laborum repellendus voluptas? Animi sed nihil omnis.</div>
           <div className='flex gap-4'>
             <div>React</div>
             <div>tiawind</div>
           </div>
         </div>
       </div>
-      <div className={`grid px-2 py-6 grid-cols-[25%_75%] transition-all rounded-sm ${isMouseEnter['A1'] ? "bg-nothing-Purple" : ""}`}
-        onMouseEnter={() => setIsMouseEnter(prev => ({ ...prev, A1: true }))}
-        onMouseLeave={() => setIsMouseEnter(prev => ({ ...prev, A1: false }))} 
+      <div className={`grid px-2 py-6 grid-cols-[25%_75%] transition-all rounded-sm ${isMouseEnter['A3'] ? "bg-nothing-Purple" : ""}`}
+        onMouseEnter={() => setIsMouseEnter(prev => ({ ...prev, A3: true }))}
+        onMouseLeave={() => setIsMouseEnter(prev => ({ ...prev, A3: false }))} 
         id='section-arcitle'
       >
         <div>
          
-            <FormattedDate isHighlight={isMouseEnter['A1']} items="2020-2024" />
+            <FormattedDate isHighlight={isMouseEnter['A3']} items="2020-2024" />
           <Picture props={data.url}/>
           
           
